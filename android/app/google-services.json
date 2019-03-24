@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "321697809692",
+    "firebase_url": "https://goblin-48096.firebaseio.com",
+    "project_id": "goblin-48096",
+    "storage_bucket": "goblin-48096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321697809692:android:6122535f4e58a710",
+        "android_client_info": {
+          "package_name": "com.lineup9.flutterfbtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321697809692-go10ngi3p5p8t539a4rcf82t2hfon962.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lineup9.flutterfbtutorial",
+            "certificate_hash": "0b3f212c6fd99836c439d333e5ccaf4da701ce3e"
+          }
+        },
+        {
+          "client_id": "321697809692-g9fl5r00tau82tcunsmfqgu729a1q352.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ffoboihz35XS7UdEjwk29coWagSI9Rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321697809692-g9fl5r00tau82tcunsmfqgu729a1q352.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
