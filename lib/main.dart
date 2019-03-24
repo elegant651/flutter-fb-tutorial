@@ -1,9 +1,25 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_fb_tutorial/const.dart';
+import 'package:flutter_fb_tutorial/login.dart';
+
 void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class MainScreen extends StatefulWidget {
   // This widget is the root of your application.
+  final String currentUserId;
+
+  MainScreen({Key key, @required this.currentUserId}) : super(key: key);
+
+  @override
+  MainScreenState createState() => MainScreenState(currentUserId: currentUserId);
+}
+
+class MainScreenState extends State<MainScreen> {
+  final String currentUserId;
+
+  MainScreenState({Key key, @required this.currentUserId});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
